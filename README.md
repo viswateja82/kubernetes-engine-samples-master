@@ -14,7 +14,7 @@
 
 Initially,I enabled the GKE and Cloud SQL Admin APIs-
 
-<i> gcloud services enable container.googleapis.com sqladmin.googleapis.com </i>
+<font size="4"><i> gcloud services enable container.googleapis.com sqladmin.googleapis.com </i></font>
 
 Downloaded the manifest files from the GitHub repository-
 
