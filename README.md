@@ -22,8 +22,8 @@ Downloaded the manifest files from the GitHub repository-
 
 Now, elts create a GKE cluster to host your WordPress app container, named persistent-disk-tutorial that has three nodes-
 
-<i> CLUSTER_NAME=persistent-disk-tutorial
-gcloud container clusters create $CLUSTER_NAME --num-nodes=3 --enable-autoupgrade --no-enable-basic-auth --no-issue-client-certificate --enable-ip-alias --metadata disable-legacy-endpoints=true </i>
+<font size="4"><i> CLUSTER_NAME=persistent-disk-tutorial
+gcloud container clusters create $CLUSTER_NAME --num-nodes=3 --enable-autoupgrade --no-enable-basic-auth --no-issue-client-certificate --enable-ip-alias --metadata disable-legacy-endpoints=true </i></font>
 
 <i>  gcloud container clusters get-credentials persistent-disk-tutorial </i>
 
