@@ -20,7 +20,7 @@ Downloaded the manifest files from the GitHub repository -
 
 <i>-> git clone https://github.com/viswateja82/kubernetes-engine-samples-master </i>
 
-Now, elts create a GKE cluster to host your WordPress app container, named persistent-disk-tutorial that has three nodes-
+Now, lets create a GKE cluster to host your WordPress app container, named persistent-disk-tutorial that has three nodes-
 
 <i>-> CLUSTER_NAME=persistent-disk-tutorial
 -> gcloud container clusters create $CLUSTER_NAME --num-nodes=3 --enable-autoupgrade --no-enable-basic-auth --no-issue-client-certificate --enable-ip-alias --metadata disable-legacy-endpoints=true </i>
@@ -37,7 +37,7 @@ This manifest file describes a PVC that requests 20 GB of storage. A StorageClas
 
 <i>-> kubectl apply -f $WORKING_DIR/wordpress-volumeclaim.yaml </i>
 
-<b>-> Creating a Cloud SQL for MySQL instance </b>
+<b> Creating a Cloud SQL for MySQL instance </b>
 
 Now, lets create an instance named mysql-wordpress-instance
 
