@@ -55,7 +55,7 @@ Create a database user called wordpress and a password for WordPress to authenti
 <i>-> CLOUD_SQL_PASSWORD=$(openssl rand -base64 18)
 -> gcloud sql users create wordpress --host=% --instance $INSTANCE_NAME --password $CLOUD_SQL_PASSWORD </i>
 
-<b>-> Deploying WordPress </b>
+<b> Deploying WordPress </b>
 
 Before we deploy WordPress, we need to create a service account. So, I created a Kubernetes secret to hold the service account credentials and another secret to hold the database credentials.
 
