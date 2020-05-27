@@ -4,7 +4,7 @@
 
  I am gonna show how to set up a single-replica WordPress deployment on Google Kubernetes Engine (GKE) using a MySQL database. Instead of installing MySQL, I used Cloud SQL, which provides a managed version of MySQL. WordPress uses PersistentVolumes (PV) and PersistentVolumeClaims (PVC) to store data.
 
-screenshots/architecutre diagram.jpeg
+https://github.com/viswateja82/kubernetes-engine-samples-master/blob/master/screenshots/architecutre%20diagram.jpeg
 
  <b> Objectives </b>
 
